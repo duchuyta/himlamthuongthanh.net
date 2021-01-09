@@ -1,239 +1,630 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
 
-    <title>Nhà ở xã hội Him Lam Thượng Thanh - Giá bán và chính sách</title>
+	<title>Minutes | Responsive Multipurpose Landing Page</title>
 
-    <style>
-      /* GLOBAL STYLES
-      -------------------------------------------------- */
-      /* Padding below the footer and lighter body text */
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
 
-      body {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        color: #5a5a5a;
-      }
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="images/favicon.ico">
 
-      /* CUSTOMIZE THE CAROUSEL
-      -------------------------------------------------- */
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 
-      /* Carousel base class */
-      .carousel {
-        margin-bottom: 4rem;
-      }
-      /* Since positioning the image, we need to help out the caption */
-      .carousel-caption {
-        bottom: 3rem;
-        z-index: 10;
-      }
+	<!-- ICONS -->
+	<link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+	<link rel="stylesheet" href="css/icons/themify/style.css">
+	<link rel="stylesheet" href="css/icons/ionicons/css/style.css">
+	<link rel="stylesheet" href="css/icons/icomoon/style.css">
 
-      /* Declare heights because of positioning of img element */
-      .carousel-item {
-        height: 32rem;
-      }
-      .carousel-item > img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        height: 32rem;
-      }
+	<!-- THEME / PLUGIN CSS -->
+	<link rel="stylesheet" href="js/vendors/flexslider/flexslider.css">
+	<link rel="stylesheet" href="js/vendors/slick/slick.css">
+	<link rel="stylesheet" href="js/vendors/swipebox/css/swipebox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+    
+	<!-- SKIN -->
+	<link rel="stylesheet" title="cyan" href="css/skins/skin-cyan.css"/>
+	<link rel="alternate stylesheet" title="green" 	href="css/skins/skin-green.css"/>
 
-      /* MARKETING CONTENT
-      -------------------------------------------------- */
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
-      /* Center align the text within the three columns below the carousel */
-      .marketing .col-lg-4 {
-        margin-bottom: 1.5rem;
-        text-align: center;
-      }
-      .marketing h2 {
-        font-weight: 400;
-      }
-      .marketing .col-lg-4 p {
-        margin-right: 0.75rem;
-        margin-left: 0.75rem;
-      }
+	<style>
+		body {
+			color: #3a3a3a;
+		}
+		.intro1 {
+			background: #333 url(images/z2269721873162_b7b887288f4ad1fc132cd98368be30ca.jpg) no-repeat center bottom;
+		}
+		.overlay {
+			opacity: 0.7;
+		}
+		.icon-box {
+			margin-bottom: 40px;
+		}
+		.info-content {
+    	padding: 0;
+			margin: 100px 0;
+		}
+		p {
+			color: #3a3a3a;
+		}
+		ul, ol {
+   	  padding-left: 35px;
+			list-style: disc; 
+		}
 
-      /* Featurettes
-      ------------------------- */
+		ul, ol, li {
+			list-style: disc; 
+		}
+	</style>
 
-      .featurette-divider {
-        margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-      }
+</head>
+<body>
+<div id="page-top"></div>
+    
+<div id="wrapper">
+	<!-- HEADER -->
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header pull-left">
+					<!-- Logo -->
+					<a class="navbar-brand" href="#">Him Lam</a>
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<div class="top-contact pull-right editContent">
+					<a style="color: inherit;" href="tel:0976504122"><i class="icon-phone"></i> <span>Liên hệ ngay</span>0976 504 122</a>
+				</div>
+				<!-- Navmenu -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#page-top" class="page-scroll">Trang chủ</a>
+						</li>
 
-      /* Thin out the marketing headings */
-      .featurette-heading {
-        font-weight: 300;
-        line-height: 1;
-        letter-spacing: -0.05rem;
-      }
+						<li><a class="page-scroll" href="#tong-quan">Tổng quan</a></li>
+						<li><a class="page-scroll" href="#vi-tri">Vị trí</a></li>
+						<li><a class="page-scroll" href="#tien-ich">Tiện ích</a></li>
+						<li><a class="page-scroll" href="#mat-bang">Mặt bằng</a></li>
+						<li><a class="page-scroll" href="#gia-ban-va-chinh-sach">Giá bán &amp; chính sách</a></li>
+						<li><a class="page-scroll" href="#contact">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- HEADER -->
 
-      /* RESPONSIVE CSS
-      -------------------------------------------------- */
+	<!-- INTRO HEAD -->
+	<div class="intro1">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row center-content">
+				<div class="col-md-12 text-center">
+					<h2>Chung cư Him Lam Thượng Thanh</h2>
+					<p class="space30 editContent">Là sản phẩm sáng tạo, là sự kết tinh giữa vị trí vàng – thiết kế hoàn hảo – tiện ích sống – và cảm hứng sáng tạo.</p>
+					<a href="#" class="btn btn-default btn-ico">Uy tín<i class="ti-shopping-cart"></i></a>
+					<a href="#" class="btn btn-default2 btn-ico">Chất lượng<i class="ti-angle-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- INTRO HEAD -->
 
-      @media (min-width: 40em) {
-        /* Bump up size of carousel content */
-        .carousel-caption p {
-          margin-bottom: 1.25rem;
-          font-size: 1.25rem;
-          line-height: 1.4;
-        }
+	<!-- CLIENTS -->
+	<div class="clients">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-2">
+					<img class="center-block" src="images/clients/1.png" alt="">
+				</div>
+				<div class="col-md-2">
+					<img class="center-block" src="images/clients/2.png" alt="">
+				</div>
+				<div class="col-md-2">
+					<img class="center-block" src="images/clients/3.png" alt="">
+				</div>
+				<div class="col-md-2">
+					<img class="center-block" src="images/clients/4.png" alt="">
+				</div>
+				<div class="col-md-2">
+					<img class="center-block" src="images/clients/5.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CLIENTS -->
 
-        .featurette-heading {
-          font-size: 50px;
-        }
-      }
+	<!-- SERVICES -->
+	<div class="service-content" id="tong-quan">
+		<div class="container-fluid">
+			<h2>TỔNG QUAN DỰ ÁN <br> Him Lam Thượng Thanh</h2>
+			<div class="row" style="margin-top: 50px;">
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #51a6ff;">
+						<i class="fa icon-id fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Tên dự án</h4>
+						<p>Khu nhà ở xã hội Thượng Thanh và đấu nối hạ tầng kỹ thuật khu vực quận Long Biên.</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #f08272;">
+						<i class="fa icon-map-marker fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Vị trí</h4>
+						<p>Phường Thượng Thanh, quận Long Biên, TP Hà Nội.</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #9cd222;">
+						<i class="fa icon-cup fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Chủ đầu tư</h4>
+						<p>Công ty Cổ phần Him Lam Thủ Đô và Công Ty Cổ Phần Xây Dựng BIC Việt Nam.</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #8c86f6;">
+						<i class="fa icon-box2 fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Quy mô</h4>
+						<p>Dự án bao gồm 3 tòa cao 22 tầng trong đó bao gồm 1 tầng hầm 2 tầng kiot, 1 nhà văn hóa cao 3 tầng.</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #e77194;">
+						<i class="fa icon-map fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Diện tích khu đất</h4>
+						<p>60,355m2</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #29bad5;">
+						<i class="fa icon-map-2 fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Mật độ xây dựng</h4>
+						<p>31.4%</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #31a99a;">
+						<i class="fa icon-users fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Quy mô dân số</h4>
+						<p>4,600 người</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #7a82fe;">
+						<i class="fa icon-culture fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Tổng số căn hộ</h4>
+						<p>1980 căn chung cư + 44 căn liền kề</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #7ba2ef;">
+						<i class="fa icon-cash fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Tổng mức đầu tư</h4>
+						<p>2,685 tỷ đồng</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #ffba41;">
+						<i class="fa icon-clock fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Khởi công</h4>
+						<p>Quý I/2019</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #00ae9a;">
+						<i class="fa icon-timer fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Bàn giao</h4>
+						<p>Quý IV/2020</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<div class="icon-box text-center">
+						<span class="ico" style="background: #6bbd63;">
+						<i class="fa icon-note2 fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4>Hình thức sở hữu</h4>
+						<p>Sổ hồng vĩnh viễn</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- SERVICES -->
 
-      @media (min-width: 62em) {
-        .featurette-heading {
-          margin-top: 7rem;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Him Lam Thượng Thanh, Long Biên</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Tổng quan
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Vị trí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tiện ích</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mặt bằng</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Giá bán & chính sách</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Liên hệ</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<!-- INFO CONTENT -->
+	<div class="info-content" style="background: #f7f8f9;" id="vi-tri">
+		<div class="container-fluid">
+			<div class="row center-content">
+				<div class="col-md-7" style="padding: 0; margin: 0;">
+					<div style="display: block;">
+						<iframe width="100%" height="600" frameborder="0" style="display: block; border: 0;" src="https://www.google.com/maps/embed/v1/search?q=Him%20Lam%20New%20Star%20(Him%20Lam%20Th%C6%B0%E1%BB%A3ng%20Thanh)%2C%20Asian%20Highway%2014%2C%20Th%C6%B0%E1%BB%A3ng%20Thanh%2C%20Long%20Bi%C3%AAn%2C%20Hanoi%2C%20Vietnam&key=AIzaSyBf5C3_Y1BjwzWbH2G_EJiZfQ-UVqk_6yw" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div style="padding: 20px;">
+						<h4>Vị trí</h4>
+						<p>Him Lam Thượng Thanh tọa lạc tại phường Thượng Thanh, quận Long Biên, TP Hà Nội, tổ hợp dự án cao cấp kết hợp giữa căn hộ hạng sang – trung tâm thương mại, trường học và khu văn phòng. Là sản phẩm sáng tạo, là sự kết tinh giữa vị trí vàng – thiết kế hoàn hảo – tiện ích sống – và cảm hứng sáng tạo.</p>
+						<ul>
+							<li>Phía Đông tiếp giáp trục đường Cầu Chui – Đông Trù và khu dân cư phường Thượng Thanh.</li>
+							<li>Phía Tây giáp với khu chung cư Đầm Nấm.</li>
+							<li>Phía Nam giáp với khu dân cư tổ 5 và trường mầm non Thượng Thanh.</li>
+							<li>Phía Bắc tiếp giáp khu công viên cây xanh theo quy hoạch của TP (công viên hồ Đầm Nấm).</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- INFO CONTENT -->
 
-    <!-- Page Content -->
-    <div class="container">
-      <!-- Heading Row -->
-      <div class="row align-items-center my-5">
-        <div class="col-lg-7">
-          <img class="img-fluid rounded mb-4 mb-lg-0" src="images/z2269721873162_b7b887288f4ad1fc132cd98368be30ca.jpg" alt="" />
-        </div>
-        <!-- /.col-lg-8 -->
-        <div class="col-lg-5">
-          <h1 class="font-weight-light">Dự án chung cư Him Lam Thượng Thanh</h1>
-          <p>
-            Chung cư Him Lam Thượng Thanh là dự án trọng tâm của chủ đầu tư Công ty CP Him Lam Thủ Đô được quy hoạch xây dựng một cách hệ thống là tổ hợp khu nhà ở và thương mại dịch vụ hiện đại, đồng bộ hạ tầng kỹ thuật, hạ tầng phù hợp với nhu cầu sử dụng cho dự án nhà ở xã hội và phục vụ cộng đồng dân cư khu vực.
-          </p>
-          <a class="btn btn-primary" href="tel:0976504122">Liên hệ ngay!</a>
-        </div>
-        <!-- /.col-md-4 -->
-      </div>
-      <!-- /.row -->
+	<!-- DUAL CONTENT -->
+	<div class="service-content" id="tien-ich">
+		<div class="container">
+			<h2>TIỆN ÍCH</h2>
+			<p>Chung cư Him Lam Thượng Thanh được đầu tư xây dựng với tiện ích liên hoàn được sắp xếp hợp lý, tựa như một khu nghỉ dưỡng tiêu chuẩn 5 sao, đáp ứng nhu cầu nghỉ ngơi vui chơi, nghỉ ngơi của mọi lứa tuổi như:</p>
+			<ul>
+				<li>Khu vườn đọc sách theo chủ đề của từng mùa, vườn xanh thẳng đứng.</li>
+				<li>Bể bơi vô cực, tiêu chuẩn Olympic (50m x 12m) trên tầng 5.</li>
+				<li>Hệ thống bậc thang độc đáo phục vụ nhu cầu tập thể dục của cư dân.</li>
+				<li>Calorine burning steps, vườn BBQ, đài vọng cảnh.</li>
+				<li>Khu nhà kính tổ chức sự kiện; 4 tầng nổi thông liền cả 4 tòa.</li>
+			</ul>
+		</div>
+	</div>
+	<!-- DUAL CONTENT -->
 
-      <!-- Call to Action Well -->
-      <div class="card text-white bg-secondary my-5 py-4 text-center">
-        <div class="card-body">
-          <p class="text-white m-0">
-            Dự án chung cư nhà ở xã hội Him Lam Thượng Thanh, Long Biên, TP Hà Nội <a href="tel:0976504122">0976.504.122</a>
-          </p>
-        </div>
-      </div>
+		<!-- DUAL CONTENT -->
+		<div class="service-content" id="mat-bang">
+			<div class="container">
+				<h2>MẶT BẰNG</h2>
+				<p>Him Lam Thượng Thanh được xây dựng với quy mô 1 tòa tháp cao 2 tầng, với 2 tầng hầm và 2 tầng trung tâm thương mại. Tòa tháp A sẽ được dành phần đế cho khu trung tâm thương mại và văn phòng hiện đại, khoảng tầng trên của dự án sẽ là khu căn hộ sang trọng và đẳng cấp bậc nhất Thủ đô trong tương lai.</p>
+				<p>Không những thế, tại Nhà ở xã hội Him Lam Thượng Thanh tất cả các căn hộ đều là căn góc, sở hữu mặt bằng căn hộ vuông vắn, tối đa hóa công năng sử dụng và trên hết, 50% căn hộ có 2 đến 3 mặt thoáng với tầm view rộng mở.</p>
+				<div class="text-center">
+					<img src="images/chung-cu-thuong-thanh-10.jpg" />
+				</div>
+			</div>
+		</div>
+		<!-- DUAL CONTENT -->
 
-      <!-- Content Row -->
-      <div class="row">
-        <div class="col-md-4 mb-5">
-          <div class="card h-100">
-            <div class="card-body">
-              <h2 class="card-title">Card One</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam
-                molestias corporis quod, ea minima accusamus.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary btn-sm">More Info</a>
-            </div>
-          </div>
-        </div>
-        <!-- /.col-md-4 -->
-        <div class="col-md-4 mb-5">
-          <div class="card h-100">
-            <div class="card-body">
-              <h2 class="card-title">Card Two</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim!
-                Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary btn-sm">More Info</a>
-            </div>
-          </div>
-        </div>
-        <!-- /.col-md-4 -->
-        <div class="col-md-4 mb-5">
-          <div class="card h-100">
-            <div class="card-body">
-              <h2 class="card-title">Card Three</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam
-                molestias corporis quod, ea minima accusamus.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary btn-sm">More Info</a>
-            </div>
-          </div>
-        </div>
-        <!-- /.col-md-4 -->
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
+	<!-- INFO CONTENT -->
+	<div class="info-content" id="lien-he">
+		<div class="container">
+			<div class="row center-content">
+				<div class="col-md-7 col-md-push-5">
+					<img src="images/2.png" class="img-responsive" alt="">
+				</div>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright © Your Website 2020</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+				<div class="col-md-5 col-md-pull-7">
+					<h4>Liên hệ</h4>
+					<p>Trong thời gian tới, chúng tôi sẽ liên tục cập nhật những thông tin mới nhất về tiến độ thi công dự án Him Lam Thượng Thanh. Quý khách hàng liên hệ với chúng tôi để được nhận Thông tin chính thức, Thời gian mở bán và Bảng hàng dự án mới nhất….</p>
+					<a href="tel:0976504122" class="btn btn-default">Hotline: 0976 504 122</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- INFO CONTENT -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+	<!-- FEATURES -->
+	<section class="feature-content" id="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 content-head-lite text-center">
+					<h2>LIE</h2>
+					<p>Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do eiusmod tempor posuere molestie lorem lectus interdum augue</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 fc-inner">
+					<div class="fc-thumb">
+						<img src="images/other/2.jpg" class="img-responsive" alt="">
+					</div>
+					<h4>Marketing Concepts</h4>
+					<p>Sed commodo suscipit neque et libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>
+					<a href="#" class="btn btn-default btn-xs">Learn More <i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<div class="col-md-4 fc-inner">
+					<div class="fc-thumb">
+						<img src="images/other/3.jpg" class="img-responsive" alt="">
+					</div>
+					<h4>Device Optimized</h4>
+					<p>Sed commodo suscipit neque et libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>
+					<a href="#" class="btn btn-default btn-xs">Learn More <i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<div class="col-md-4 fc-inner">
+					<div class="fc-thumb">
+						<img src="images/other/4.jpg" class="img-responsive" alt="">
+					</div>
+					<h4>Target Audience</h4>
+					<p>Sed commodo suscipit neque et libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>
+					<a href="#" class="btn btn-default btn-xs">Learn More <i class="fa fa-long-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FEATURES -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="vendor/jquery/jquery-3.5.1.slim.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
+	<!-- TESTIMONIALS -->
+	<div class="testimonials" id="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="content-head space60 text-center">
+					<h2>What our clients say</h2>
+					<p>Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do eiusmod tempor posuere molestie lorem lectus interdum augue</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="quote-slider">
+					<div class="quote-item">
+						<div class="quote-info">
+							<p class="quote">It's iaculis lectus sed mattis nibh phasellus iaculis pulvinar purus vitae ligula interdum at mattis dui sodales non neque sit amet enim</p>
+							<div class="author">
+								<img class="author-avatar" src="images/quote/1.jpg" height="48" width="48" alt="" />
+								<div class="author-info">
+									<div class="name">Joseph Doe</div>
+									<div class="company">@company</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="quote-item">
+						<div class="quote-info">
+							<p class="quote">It's iaculis lectus sed mattis nibh phasellus iaculis pulvinar purus vitae ligula interdum at mattis dui sodales non neque sit amet enim</p>
+							<div class="author">
+								<img class="author-avatar" src="images/quote/2.jpg" height="48" width="48" alt="" />
+								<div class="author-info">
+									<div class="name">Stephen Doe</div>
+									<div class="company">@company</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="quote-item">
+						<div class="quote-info">
+							<p class="quote">It's iaculis lectus sed mattis nibh phasellus iaculis pulvinar purus vitae ligula interdum at mattis dui sodales non neque sit amet enim</p>
+							<div class="author">
+								<img class="author-avatar" src="images/quote/1.jpg" height="48" width="48" alt="" />
+								<div class="author-info">
+									<div class="name">Mary Christopher</div>
+									<div class="company">@company</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="quote-item">
+						<div class="quote-info">
+							<p class="quote">It's iaculis lectus sed mattis nibh phasellus iaculis pulvinar purus vitae ligula interdum at mattis dui sodales non neque sit amet enim</p>
+							<div class="author">
+								<img class="author-avatar" src="images/quote/2.jpg" height="48" width="48" alt="" />
+								<div class="author-info">
+									<div class="name">Joseph Doe</div>
+									<div class="company">@company</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- TESTIMONIALS -->
+
+	<!-- PRICING -->
+	<div class="pricing bg-gray" id="pricing">
+		<div class="container">
+			<div class="content-head space60 text-center">
+				<h2>Choose your best plan</h2>
+				<p>Suspendisse egestas mattis rhoncus pellen erat at sed do eiusmod tempor<br>posuere molestie lorem lectus interdum augue</p>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<!-- Pricing Plan - 1 -->
+				<div class="col-md-3">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<strong>Basic</strong>
+						</div>
+						<div class="panel-body">
+							<h3 class="panel-title price">$9<span class="price-cents">99</span></h3>
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">5 Projects</li>
+							<li class="list-group-item">5 GB of Storage</li>
+							<li class="list-group-item">Up to 100 Users</li>
+							<li class="list-group-item">10 GB Bandwidth</li>
+							<li class="list-group-item">Security Suite</li>
+						</ul>
+						<a class="buy-btn" href="#">Sign Up Now!</a>
+					</div>
+				</div>
+
+				<!-- Pricing Plan - 2 -->
+				<div class="col-md-3">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<strong>Standard</strong>
+						</div>
+						<div class="panel-body">
+							<h3 class="panel-title price">$19<span class="price-cents">99</span></h3>
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">10 Projects</li>
+							<li class="list-group-item">10 GB of Storage</li>
+							<li class="list-group-item">Up to 250 Users</li>
+							<li class="list-group-item">25 GB Bandwidth</li>
+							<li class="list-group-item">Security Suite</li>
+						</ul>
+						<a class="buy-btn" href="#">Sign Up Now!</a>
+					</div>
+				</div>
+
+				<!-- Pricing Plan - 3 -->
+				<div class="col-md-3">
+					<div class="panel panel-default active text-center">
+						<i class="ti-cup"></i>
+						<div class="panel-heading">
+							<strong>Premium</strong>
+						</div>
+						<div class="panel-body">
+							<h3 class="panel-title price">$29<span class="price-cents">99</span></h3>
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">Unlimited</li>
+							<li class="list-group-item">50 GB of Storage</li>
+							<li class="list-group-item">Up to 1000 Users</li>
+							<li class="list-group-item">100 GB Bandwidth</li>
+							<li class="list-group-item">Security Suite</li>
+						</ul>
+						<a class="buy-btn" href="#">Sign Up Now!</a>
+					</div>
+				</div>
+
+				<!-- Pricing Plan - 4 -->
+				<div class="col-md-3">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<strong>Ultimate</strong>
+						</div>
+						<div class="panel-body">
+							<h3 class="panel-title price">$49<span class="price-cents">99</span></h3>
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">Unlimited</li>
+							<li class="list-group-item">150 GB of Storage</li>
+							<li class="list-group-item">Unlimited</li>
+							<li class="list-group-item">500 GB Bandwidth</li>
+							<li class="list-group-item">Security Suite</li>
+						</ul>
+						<a class="buy-btn" href="#">Sign Up Now!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- PRICING -->
+
+	<!-- CALL TO ACTION -->
+	<div class="cta-content">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<i class="ti-shopping-cart head-ico"></i>
+					<h3>Are you impressed ?</h3>
+					<p class="space30">Lorem ipsum dolor sit amet curabitur eu dapibus felis. Morbi ut dolor ut mi ultricies lobortis.<br>Morbi et viverra turpis. Donec cursus ornare purus nec porttitor.</p>
+					<a href="#" class="btn btn-ico">Download Minutes Now <i class="ti-shopping-cart"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CALL TO ACTION -->
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="footer-logo"><a href="index.html">Minutes</a></h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit rhoncus tempus perdiet risus sit amet volutpat.</p>
+					<ul class="footer-social">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h4>Related Links</h4>
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="footer-list">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Testimonials</a></li>
+								<li><a href="#">Our Team</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<ul class="footer-list">
+								<li><a href="#">Register</a></li>
+								<li><a href="#">Forum</a></li>
+								<li><a href="#">Affiliate</a></li>
+								<li><a href="#">FAQ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h4>Payment Methods</h4>
+					<ul class="footer-payment">
+						<li><a href="#"><img src="images/payment/1.png" alt=""></a></li>
+						<li><a href="#"><img src="images/payment/2.png" alt=""></a></li>
+						<li><a href="#"><img src="images/payment/3.png" alt=""></a></li>
+						<li><a href="#"><img src="images/payment/5.png" alt=""></a></li>
+					</ul>
+					<br>
+					<p>&copy; 2016. Minutes. All Rights Reserved.<br>Designed, developed &amp; Maintained by diilpkumar</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER -->
+</div>
+
+<!-- JAVASCRIPT =============================-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vendors/flexslider/flexslider.js"></script>
+<script src="js/vendors/slick/slick.min.js"></script>
+<script src="js/vendors/jquery.placeholder.js"></script>
+<script src="js/vendors/jquery.easing.min.js"></script>
+<script src="js/vendors/mc/jquery.ketchup.all.min.js"></script>
+<script src="js/vendors/mc/main.js"></script>
+<script src="js/vendors/jquery.countdown.min.js"></script>
+<script src="js/vendors/swipebox/js/jquery.swipebox.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
 </html>
