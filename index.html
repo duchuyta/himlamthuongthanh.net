@@ -55,7 +55,7 @@
 		}
 		.info-content {
     	padding: 0;
-			margin: 100px 0;
+			margin: 50px 0;
 		}
 		p {
 			color: #3a3a3a;
@@ -78,6 +78,93 @@
 			font-size: 14px;
 		}
 		.icon-box h4 {
+			font-size: 16px;
+		}
+		.intro1 h2 {
+			line-height: 1.2;
+			text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+		}
+		.s1:before {
+			content: '';
+			width: 102%;
+			height: 108%;
+			position: absolute;
+			left: -40px;
+			-webkit-transform: skewX(-12deg) translate3d(0,0,0);
+			-ms-transform: skewX(-12deg) translate3d(0,0,0);
+			transform: skewX(-12deg) translate3d(0,0,0);
+			border: solid 0px #E0E0E0;
+			top: -4%;
+			padding-right: calc(((100vw - 1170px) / 2) + 60px);
+			box-sizing: content-box;
+			border-radius: 5px;
+			background: white;
+		}
+		.heading-4-1 {
+			font-size: 30px;
+			font-weight: 600;
+			color: white;
+			text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+			text-align: right;
+			padding-right: 100px;
+			margin-top: 110px;
+		}
+		.slider-card {
+			padding: 35px 20px;
+		}
+		.slider-card h3 {
+			color: #00a9be;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.slider-card .card-body {
+			text-align: center; 
+			margin-top: 30px; 
+			color: #212121;
+		}
+		.slider-card .card-body p {
+			color: inherit;
+		}
+		.slider-card .card-body p > span {
+			font-weight: bold;
+		}
+		.slider-card:after {
+			content: '';
+			width: 20px;
+			height: 70%;
+			background-repeat: no-repeat;
+			background-position: left top;
+			background-image: url('images/line.jpg');
+			left: 100%;
+			top: 10%;
+			-webkit-transform: skew(-10deg);
+			-ms-transform: skew(-10deg);
+			transform: skew(-10deg);
+			position: absolute;
+		}
+		.service-content h2 {
+			margin: 0px 0px 25px 0;
+			font-size: 34px;
+		}
+		.breakline {
+			max-width: 100%;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+			margin-bottom: 30px;
+		}
+		.img-responsive-wrapper {
+			margin: 30px 0;
+		}
+		.img-responsive-wrapper img {
+			display: block;
+			margin: 0 auto;
+		}
+		.img-responsive-wrapper .caption {
+			display: block;
+			margin: 10px 0;
+			color: #00a9be;
+			text-transform: uppercase;
 			font-size: 16px;
 		}
 	</style>
@@ -129,10 +216,48 @@
 		<div class="container">
 			<div class="row center-content">
 				<div class="col-md-12 text-center">
-					<h2>Chung cư Him Lam Thượng Thanh</h2>
-					<p class="space30 editContent">Là sản phẩm sáng tạo, là sự kết tinh giữa vị trí vàng – thiết kế hoàn hảo – tiện ích sống – và cảm hứng sáng tạo.</p>
-					<a href="#" class="btn btn-default btn-ico">Uy tín<i class="ti-shopping-cart"></i></a>
-					<a href="#" class="btn btn-default2 btn-ico">Chất lượng<i class="ti-angle-right"></i></a>
+					<h2 style="color: #fff;font-weight: 600;">WEBSITE THÔNG TIN CHÍNH THỨC CHỦ ĐẦU TƯ – GIẢI ĐÁP THẮC MẮC, HƯỚNG DẪN THỦ TỤC HỒ SƠ MUA NHÀ</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="background-color: #00BCD4;margin-top: 0;z-index: 9;position: relative;">
+		<div class="row">
+			<div class="col-md-6">
+				<h4 class="heading-4-1">Giá chỉ 15tr/m2</h4>
+			</div>
+			<div class="col-md-6 s1" style="min-height: 160px;background: #fff;margin-top: -50px;">
+				<div class="col-md-4">
+					<div class="slider-card">
+						<h3>GIÁ BÁN ƯU ĐÃI</h3>
+						<div class="card-body">
+							<p>Giá chỉ từ <span>15 triệu/m2</span></p>
+							<p>Sở hữu căn hộ với <span>160 triệu</span></p>
+							<p>Thiết kế <span>1 ngủ - 2 ngủ - 3 ngủ</span></p>
+							<p>Diện tích <span>37-77m2</span></p>
+							<p>Ngân hàng hỗ trợ <span>70% GTCH</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="slider-card">
+						<h3>VỊ TRÍ BẬC NHẤT</h3>
+						<div class="card-body">
+							<p>Nhất cận thị: <span>cầu Chương Dương</span> 2 km, <span>Nhà Hát Lớn</span> 5km</p>
+							<p>Nhị cận giang: ngay sát <span>hồ Ngọc Thụy</span>, view tầm cao <span>Sông Hồng</span></p>
+							<p>Tam cận lộ: cách đường <span>cao tốc Lý Sơn</span> 2km</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="slider-card">
+						<h3>GIÁ BÁN ƯU ĐÃI</h3>
+						<div class="card-body">
+							<p><span>3</span>  tòa chung cư cao <span>22</span> tầng</p>
+							<p><span>45</span> lô liền kề shophouse</p>
+							<p>Tổ hợp <span>TTTM - Văn phòng - Căn hộ</span> cao cấp</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -140,118 +265,77 @@
 	<!-- INTRO HEAD -->
 
 	<!-- SERVICES -->
-	<div class="service-content" id="tong-quan">
+	<div class="service-content" id="tong-quan" style="background: #f7f8f9;" >
+		<div class="container">
+			<h2>GIỚI THIỆU TỔNG QUAN DỰ ÁN</h2>
+			<img class="breakline" src="images/breakline.png" />
+			<p class="text-center">Chung cư - Nhà ở xã hội Him Lam Thượng Thanh nằm ở cửa ngõ phía Đông Hà Nội, là trung tâm giao thương huyết mạch phía Đông Hà Nội với các tỉnh Hải Phòng, Quảng Ninh, Hải Dương, Bắc Giang, Bắc Ninh, Lạng Sơn thông qua quốc lộ 5 và quốc lộ 1. Dự án cách cầu Chương Dương khoảng 3km, từ dự án cư dân có thể tiếp cận di chuyển vào nội thành chỉ mất 5 – 10 phút lái xe.</p>
+		</div>
 		<div class="container-fluid">
-			<h2>TỔNG QUAN DỰ ÁN <br> Him Lam Thượng Thanh</h2>
 			<div class="row" style="margin-top: 50px;">
-				<div class="col-md-2 col-sm-6">
+				<div class="col-md-3 col-sm-6">
 					<div class="icon-box text-center">
 						<span class="ico" style="background: #51a6ff;">
 						<i class="fa icon-id fa-stack-1x fa-inverse"></i>
 						</span>
 						<h4>Tên dự án</h4>
-						<p>Khu nhà ở xã hội Thượng Thanh và đấu nối hạ tầng kỹ thuật khu vực quận Long Biên.</p>
+						<p style="font-weight: 600; font-style: italic; font-size: 17px;">Nhà ở xã hội Him Lam- Thượng Thanh</p>
 					</div>
 				</div>
-				<div class="col-md-2 col-sm-6">
+				<div class="col-md-3 col-sm-6">
 					<div class="icon-box text-center">
 						<span class="ico" style="background: #f08272;">
 						<i class="fa icon-map-marker fa-stack-1x fa-inverse"></i>
 						</span>
 						<h4>Vị trí</h4>
-						<p>Phường Thượng Thanh, quận Long Biên, TP Hà Nội.</p>
+						<p style="font-weight: 600; font-style: italic; font-size: 17px;">Gia Quất – Thượng Thanh – Long Biên</p>
 					</div>
 				</div>
-				<div class="col-md-2 col-sm-6">
+				<div class="col-md-3 col-sm-6">
 					<div class="icon-box text-center">
 						<span class="ico" style="background: #9cd222;">
 						<i class="fa icon-cup fa-stack-1x fa-inverse"></i>
 						</span>
 						<h4>Chủ đầu tư</h4>
-						<p>Công ty Cổ phần Him Lam Thủ Đô và Công Ty Cổ Phần Xây Dựng BIC Việt Nam.</p>
+						<p style="font-weight: 600; font-style: italic; font-size: 17px;">BIC Việt Nam – Him Lam Thủ Đô</p>
 					</div>
 				</div>
-				<div class="col-md-2 col-sm-6">
-					<div class="icon-box text-center">
-						<span class="ico" style="background: #8c86f6;">
-						<i class="fa icon-box2 fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4>Quy mô</h4>
-						<p>Dự án bao gồm 3 tòa cao 22 tầng trong đó bao gồm 1 tầng hầm 2 tầng kiot, 1 nhà văn hóa cao 3 tầng.</p>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6">
+				<div class="col-md-3 col-sm-6">
 					<div class="icon-box text-center">
 						<span class="ico" style="background: #e77194;">
 						<i class="fa icon-map fa-stack-1x fa-inverse"></i>
 						</span>
 						<h4>Diện tích khu đất</h4>
-						<p>60,355m2</p>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6">
-					<div class="icon-box text-center">
-						<span class="ico" style="background: #29bad5;">
-						<i class="fa icon-map-2 fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4>Mật độ xây dựng</h4>
-						<p>31.4%</p>
+						<p style="font-weight: 600; font-style: italic; font-size: 17px;">60,355m2</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2 col-sm-6">
+				<div class="col-md-4 col-sm-6">
 					<div class="icon-box text-center">
-						<span class="ico" style="background: #31a99a;">
-						<i class="fa icon-users fa-stack-1x fa-inverse"></i>
+						<span class="ico" style="background: #8c86f6;">
+						<i class="fa icon-box2 fa-stack-1x fa-inverse"></i>
 						</span>
-						<h4>Quy mô dân số</h4>
-						<p>4,600 người</p>
+						<h4>Mật độ xây dựng </h4>
+						<p style="font-weight: 600; font-style: italic; font-size: 17px;">40%</p>
 					</div>
 				</div>
-				<div class="col-md-2 col-sm-6">
+				<div class="col-md-4 col-sm-6">
 					<div class="icon-box text-center">
-						<span class="ico" style="background: #7a82fe;">
-						<i class="fa icon-culture fa-stack-1x fa-inverse"></i>
+						<span class="ico" style="background: #29bad5;">
+						<i class="fa icon-map-2 fa-stack-1x fa-inverse"></i>
 						</span>
-						<h4>Tổng số căn hộ</h4>
-						<p>1980 căn chung cư + 44 căn liền kề</p>
+						<h4>Quy mô</h4>
+						<p style="font-weight: 600; font-style: italic; font-size: 17px;">3 tòa cao 22 tầng, 45 lô liền kề shophouse, 3 hầm, 2 tầng TTTM</p>
 					</div>
 				</div>
-				<div class="col-md-2 col-sm-6">
-					<div class="icon-box text-center">
-						<span class="ico" style="background: #7ba2ef;">
-						<i class="fa icon-cash fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4>Tổng mức đầu tư</h4>
-						<p>2,685 tỷ đồng</p>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6">
+				<div class="col-md-4 col-sm-6">
 					<div class="icon-box text-center">
 						<span class="ico" style="background: #ffba41;">
 						<i class="fa icon-clock fa-stack-1x fa-inverse"></i>
 						</span>
-						<h4>Khởi công</h4>
-						<p>Quý I/2019</p>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6">
-					<div class="icon-box text-center">
-						<span class="ico" style="background: #00ae9a;">
-						<i class="fa icon-timer fa-stack-1x fa-inverse"></i>
-						</span>
 						<h4>Bàn giao</h4>
-						<p>Quý IV/2020</p>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6">
-					<div class="icon-box text-center">
-						<span class="ico" style="background: #6bbd63;">
-						<i class="fa icon-note2 fa-stack-1x fa-inverse"></i>
-						</span>
-						<h4>Hình thức sở hữu</h4>
-						<p>Sổ hồng vĩnh viễn</p>
+						<p style="font-weight: 600; font-style: italic; font-size: 17px;">Dự kiến quý II/ 2022</p>
 					</div>
 				</div>
 			</div>
@@ -260,55 +344,82 @@
 	<!-- SERVICES -->
 
 	<!-- INFO CONTENT -->
-	<div class="info-content" style="background: #f7f8f9;" id="vi-tri">
-		<div class="container-fluid">
-			<div class="row center-content">
-				<div class="col-md-7" style="padding: 0; margin: 0;">
+	<div class="info-content service-content" id="vi-tri">
+		<div class="container">
+			<h2 style="margin-top: 30px;">VỊ TRÍ TRUNG TÂM</h2>
+			<img class="breakline" src="images/breakline.png" />
+			<p class="text-center">Chung cư - Nhà ở xã hội Him Lam Thượng Thanh Thượng Thanh tọa lạc tại cửa ngõ phía Đông thủ đô Hà Nội, Dự án nằm trong công viên Thượng Thanh – Một trong những dự án được thiết kế, xây dựng và phát triển dựa trên mối tương quan  can bang giữa không gian đô thị và môi trường tự nhiên.</p>
+	
+			<div class="row">
+				<div class="col-md-12">
+					<div style="padding: 30px 0;">
+						<img class="img-responsive" src="images/z2294250710701_937f2a8e3947fe818ba72ce744445b75.jpg" />
+					</div>
+
+					<div class="text-center" style="padding: 30px 0;">
+						<p style="margin-bottom: 15px;">Phía Bắc giáp công viên cây xanh Đầm Nấm</p>
+						<p style="margin-bottom: 15px;">Phía Nam giáp khu dân cư tổ 5 và trường Mầm non Thượng Thanh</p>
+						<p style="margin-bottom: 15px;">Phía Đông tiếp nối với trục đường Cầu Chui – Đông Trù</p>
+						<p style="margin-bottom: 15px;">Phía Tây giáp khu chung cư Đầm Nấm</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12" style="padding: 50px 0; margin: 0;">
 					<div style="display: block;">
 						<iframe width="100%" height="600" frameborder="0" style="display: block; border: 0;" src="https://www.google.com/maps/embed/v1/search?q=Him%20Lam%20New%20Star%20(Him%20Lam%20Th%C6%B0%E1%BB%A3ng%20Thanh)%2C%20Asian%20Highway%2014%2C%20Th%C6%B0%E1%BB%A3ng%20Thanh%2C%20Long%20Bi%C3%AAn%2C%20Hanoi%2C%20Vietnam&key=AIzaSyBf5C3_Y1BjwzWbH2G_EJiZfQ-UVqk_6yw" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-md-5">
-					<div style="padding: 20px;">
-						<h4>VỊ TRÍ</h4>
-						<p>Him Lam Thượng Thanh tọa lạc tại phường Thượng Thanh, quận Long Biên, TP Hà Nội, tổ hợp dự án cao cấp kết hợp giữa căn hộ hạng sang – trung tâm thương mại, trường học và khu văn phòng. Là sản phẩm sáng tạo, là sự kết tinh giữa vị trí vàng – thiết kế hoàn hảo – tiện ích sống – và cảm hứng sáng tạo.</p>
-						<ul>
-							<li>Phía Đông tiếp giáp trục đường Cầu Chui – Đông Trù và khu dân cư phường Thượng Thanh.</li>
-							<li>Phía Tây giáp với khu chung cư Đầm Nấm.</li>
-							<li>Phía Nam giáp với khu dân cư tổ 5 và trường mầm non Thượng Thanh.</li>
-							<li>Phía Bắc tiếp giáp khu công viên cây xanh theo quy hoạch của TP (công viên hồ Đầm Nấm).</li>
-						</ul>
-					</div>
-				</div>
 			</div>
+	
 		</div>
+
 	</div>
 	<!-- INFO CONTENT -->
 
 	<!-- DUAL CONTENT -->
 	<div class="service-content" id="tien-ich">
 		<div class="container">
-			<h2>TIỆN ÍCH</h2>
-			<p>Chung cư Him Lam Thượng Thanh được đầu tư xây dựng với tiện ích liên hoàn được sắp xếp hợp lý, tựa như một khu nghỉ dưỡng tiêu chuẩn 5 sao, đáp ứng nhu cầu nghỉ ngơi vui chơi, nghỉ ngơi của mọi lứa tuổi như:</p>
-			<ul>
-				<li>Khu vườn đọc sách theo chủ đề của từng mùa, vườn xanh thẳng đứng.</li>
-				<li>Bể bơi vô cực, tiêu chuẩn Olympic (50m x 12m) trên tầng 5.</li>
-				<li>Hệ thống bậc thang độc đáo phục vụ nhu cầu tập thể dục của cư dân.</li>
-				<li>Calorine burning steps, vườn BBQ, đài vọng cảnh.</li>
-				<li>Khu nhà kính tổ chức sự kiện; 4 tầng nổi thông liền cả 4 tòa.</li>
-			</ul>
-		</div>
-	</div>
-	<!-- DUAL CONTENT -->
-
-	<!-- DUAL CONTENT -->
-	<div class="service-content" id="mat-bang">
-		<div class="container">
-			<h2>MẶT BẰNG</h2>
-			<p>Him Lam Thượng Thanh được xây dựng với quy mô 1 tòa tháp cao 2 tầng, với 2 tầng hầm và 2 tầng trung tâm thương mại. Tòa tháp A sẽ được dành phần đế cho khu trung tâm thương mại và văn phòng hiện đại, khoảng tầng trên của dự án sẽ là khu căn hộ sang trọng và đẳng cấp bậc nhất Thủ đô trong tương lai.</p>
-			<p>Không những thế, tại Nhà ở xã hội Him Lam Thượng Thanh tất cả các căn hộ đều là căn góc, sở hữu mặt bằng căn hộ vuông vắn, tối đa hóa công năng sử dụng và trên hết, 50% căn hộ có 2 đến 3 mặt thoáng với tầm view rộng mở.</p>
-			<div class="text-center">
-				<img style="margin: 0 auto;" src="images/chung-cu-thuong-thanh-10.jpg" class="img-responsive" />
+			<h2 style="margin-top: 30px;">TIỆN ÍCH</h2>
+			<img class="breakline" src="images/breakline.png" />
+			<div class="row">
+				<div class="col-md-12">
+					<div class="img-responsive-wrapper">
+						<img style="border-radius: 4px;" src="images/z2294250700832_89510573ff7dd277e19a86d10adad640.jpg" class="img-responsive rounded mx-auto d-block" />
+						<div class="text-center caption">Trung tâm thương mại</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="img-responsive-wrapper">
+						<img style="border-radius: 4px;" src="images/z2294250811458_b3a4905e2dc0c54df8e5f7f05813e4a6.jpg" class="img-responsive rounded mx-auto d-block" />
+						<div class="text-center caption">Trung tâm thương mại</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="img-responsive-wrapper">
+						<img style="border-radius: 4px;" src="images/spa.jpg" class="img-responsive rounded mx-auto d-block" />
+						<div class="text-center caption">Spa</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="img-responsive-wrapper">
+						<img style="border-radius: 4px;" src="images/Phong-tap-gym.jpg" class="img-responsive rounded mx-auto d-block" />
+						<div class="text-center caption">Gym</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="img-responsive-wrapper">
+						<img style="border-radius: 4px;" src="images/z2294248621540_23ec56c6a7086db7f1bd22dce5ee1862.jpg" class="img-responsive rounded mx-auto d-block" />
+						<div class="text-center caption">Hầm để xe thông minh</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="img-responsive-wrapper">
+						<img style="border-radius: 4px;" src="images/sieuthi.jpg" class="img-responsive rounded mx-auto d-block" />
+						<div class="text-center caption">Siêu thị Vinmart</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -317,32 +428,76 @@
 	<!-- DUAL CONTENT -->
 	<div class="service-content" id="gia-ban-va-chinh-sach">
 		<div class="container">
-			<h2>GIÁ BÁN &amp; CHÍNH SÁCH</h2>
-			<h3>TIẾN ĐỘ THANH TOÁN DỰ ÁN</h3>
-			<p style="font-size: 18px; margin: 15px 0; color: #E91E63;">Dự án nhà ở xã hội him lam thượng thanh được chia làm 7 đợt:</p>
-			<ul>
-				<li><strong>Giai đoạn 1</strong>: thanh toán 30% khi ký hợp đồng mua bán;</li>
-				<li><strong>Giai đoạn 2</strong>: thanh toán 15% khi xây xong tầng 4;</li>
-				<li><strong>Giai đoạn 3</strong>: thanh toán 15% khi xây xong tầng 9;</li>
-				<li><strong>Giai đoạn 4</strong>: thanh toán 15% khi xây xong tầng 14;</li>
-				<li><strong>Giai đoạn 5</strong>: thanh toán 15% khi cất nóc;</li>
-				<li><strong>Giai đoạn 6</strong>: thanh toán 15% khi bàn giao căn hộ;</li>
-				<li><strong>Giai đoạn 7</strong>: thanh toán 5% khi nhận sổ Chứng nhận quyền sử dụng căn hộ.</li>
-			</ul>
-			<p class="text-center" style="font-size: 18px; margin: 35px 0; color: #E91E63;">NGÂN HÀNG HỖ TRỢ VAY 70% TỔNG GIÁ TRỊ CĂN HỘ THỜI GIAN VAY LÊN ĐẾN 20 NĂM</p>
+			<h2 style="margin-top: 30px;">TIẾN ĐỘ THANH TOÁN LINH HOẠT</h2>
+			<img class="breakline" src="images/breakline.png" />
+
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div style="padding: 30px 0;">
+						<img class="img-responsive" src="images/z2294250710720_b274366122511ea94a573334a20ef763.jpg" />
+					</div>
+				</div>
+			</div>
+
+			<p class="text-center" style="font-size: 18px; margin: 35px 0; color: #E91E63;">
+				- Ký 30% <br>
+				- Tầng 5: 10% <br>
+				- Tầng 10: 10% <br>
+				- Tầng 15: 10%  <br>
+				- Cất nóc: 10%  <br>
+				- Nhận nhà 25% <br>
+				- Làm sổ 5%
+				</p>
 		
-			<h2 class="text-center" style="margin: 35px 0; color: #E91E63;">GIÁ BÁN CĂN HỘ DỰ KIẾN 16tr/m2 ĐÃ BAO GỒM VAT</h2>
+			<h2 class="text-center" style="margin: 35px 0; color: #E91E63;">GIÁ BÁN CĂN HỘ CHỈ 15tr/m2</h2>
 		</div>
 	</div>
 	<!-- DUAL CONTENT -->
 
 		<!-- DUAL CONTENT -->
+		<div class="service-content" id="mat-bang">
+			<div class="container">
+				<h2 style="margin-top: 30px;">MẶT BẰNG TẦNG ĐIỂN HÌNH</h2>
+				<img class="breakline" src="images/breakline.png" />
+
+				<div class="text-center">
+					<img style="margin: 0 auto;" src="images/matbang.jpg" class="img-responsive" />
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="img-responsive-wrapper">
+							<img style="border-radius: 4px;" src="images/z2294249169610_7323639d129a06acc6f3c5220038b58b.jpg" class="img-responsive rounded mx-auto d-block" />
+							<div class="text-center caption">Thiết kế căn hộ</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="img-responsive-wrapper">
+							<img style="border-radius: 4px;" src="images/z2294249153760_95e5bd3897546c3dacceaf516a907bbd.jpg" class="img-responsive rounded mx-auto d-block" />
+							<div class="text-center caption">Căn 2 ngủ</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- DUAL CONTENT -->
+
+		<!-- DUAL CONTENT -->
 		<div class="service-content" id="lien-he">
 			<div class="container">
-				<h2>LIÊN HỆ</h2>
-				<p>Trong thời gian tới, chúng tôi sẽ liên tục cập nhật những thông tin mới nhất về tiến độ thi công dự án Him Lam Thượng Thanh. Quý khách hàng liên hệ với chúng tôi để được nhận Thông tin chính thức, Thời gian mở bán và Bảng hàng dự án mới nhất….</p>
+				<h2 style="margin-top: 30px;">SO SÁNH CHUNG CƯ THƯƠNG MẠI VỚI CHUNG CƯ NHÀ Ở XÃ HỘI</h2>
+				<img class="breakline" src="images/breakline.png" />
+
+				<div class="text-center">
+					<img style="margin: 0 auto;" src="images/z2294248717733_cc63ea05353b8177a3515a6aef52b432.jpg" class="img-responsive" />
+				</div>
+
 				<div class="text-center" style="margin-top: 50px;">
-					<a href="tel:0976504122" class="btn btn-default">Liên hệ ngay: 0976 504 122</a>
+					<a href="tel:0976504122">
+						<img style="max-width: 500px; margin: 80px auto;" src="images/lienhe.jpg" class="img-responsive" />
+					</a>
 				</div>
 			</div>
 		</div>
